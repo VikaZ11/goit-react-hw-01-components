@@ -1,7 +1,6 @@
 import PropTypes from 'prop-types';
 import styles from './Transaction.module.css';
 
-
 export const ItemTransaction = ({ items }) => {
     return items.map(item => (
       <tr key={item.id} className={styles.tr}>
